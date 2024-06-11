@@ -7,7 +7,7 @@ MISP_KEY = 'vtdt6j2BMFRTJFxfJ2apXPlepvD9kYdndwhm8DG4'
 MISP_VERIFY_CERT = False
 
 # Configuration Snort
-SNORT_RULES_FILE = '/home/user/misp-export/custom.rules'
+SNORT_RULES_FILE = '/home/user/misp-export/apt41.rules'
 
 def get_apt41_iocs():
     headers = {
